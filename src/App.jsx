@@ -814,7 +814,7 @@ const PayOnDelivery = () => {
 
 // 4. PRICING SECTION - INTERACTIVO CON CUOTAS
 const PricingSection = () => {
-  const [selectedInstallment, setSelectedInstallment] = useState('1');
+  const [selectedInstallment, setSelectedInstallment] = useState('12');
 
   const installmentOptions = {
     '1': {
